@@ -1,0 +1,21 @@
+[
+    {
+        "arguments": [
+            "x86_64-pc-linux-gnu-cc",
+            "-c",
+            "-Iprivate",
+            "-Iinclude",
+            "-fdiagnostics-color=always",
+            "-Og",
+            "-g",
+            "-DHEWG_ORG=crow",
+            "-DHEWG_NAME=cutf8",
+            "-Wall",
+            "-Wextra",
+            "-Werror",
+            "-std=c17"
+        ],
+        "directory": "/home/korvo/gits/crow.cutf8",
+        "file": "csrc/cutf8.c"
+    }
+]

@@ -1,0 +1,27 @@
+[hewg]
+version = "0.4.0-alpha"
+type = "library"
+
+[project]
+version = "1.0.0"
+org = "crow"
+name = "cutf8"
+description = "PUT YOUR DESCRIPTION HERE!"
+authors = { }
+
+[depends]
+internal = { }
+external = { }
+
+[cxx]
+flags = { "-Wall" "-Wextra" "-Werror" }
+std = 23
+sources = { }
+
+[c]
+flags = { "-Wall" "-Wextra" "-Werror" }
+std = 17
+sources = { "cutf8.c" }
+
+[hooks.prebuild]
+[hooks.postbuild]
