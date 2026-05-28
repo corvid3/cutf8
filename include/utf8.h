@@ -15,7 +15,7 @@ struct cutf8_string_view
 #define cutf8_lit(str_)                                                        \
   (struct cutf8_string_view)                                                   \
   {                                                                            \
-    .str = (char const[])(str_), .bytesize = sizeof((char const[])(str_))      \
+    .str = (str_), .bytesize = sizeof(str_)                                    \
   }
 
 bool
