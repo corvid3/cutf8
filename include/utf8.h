@@ -18,6 +18,9 @@ struct cutf8_string_view
     .str = (str_), .bytesize = sizeof(str_)                                    \
   }
 
+/* for use with %.*s formatting directives */
+#define cutf8_fmt(str_) (str_).bytesize, (str_).str
+
 bool
 cutf8_glyph_to_utf8(cutf8_glyph in, char (*out)[4], size_t* len);
 cutf8_glyph
